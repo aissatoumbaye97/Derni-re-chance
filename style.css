@@ -1,0 +1,99 @@
+/* GLOBAL CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 2.5;
+}
+
+h2{
+    font-size: 500%;
+}
+
+h3{
+    font-size: 500%;
+}
+
+h4,
+h5{
+    font-size: 2.5;
+}
+
+li{
+    font-size: 2.5;
+}
+a{
+    color: #080808;
+    text-decoration: none;
+}
+
+/*header*/
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+nav ul :hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+nav ul{
+    display: block;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    flex: 1 1 5rem;
+}
+
+
+.button{
+    background-color: rgb(248, 248, 247);
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.explorenow{
+    display: flex;
+    margin-top: 30%;
+    position: absolute;
+    right: 33%;
+    background: rgb(233, 99, 99);
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    
+   
+}
